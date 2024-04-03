@@ -16,7 +16,7 @@ const SearchInput = ({ onSearch }: Props) => {
       }}
     >
       <InputGroup>
-        <InputLeftElement children={<BsSearch />} />
+        <InputLeftElement pointerEvents="none" children={<BsSearch />} />
         <Input
           size="lg"
           ref={ref}
